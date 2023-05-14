@@ -1,0 +1,257 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body{
+        padding-top: 82px;
+      }
+    header{
+        padding: 10px 0;
+    }
+    .logo{
+        width: 125px;
+    }
+    .menu li a{
+        font-size: 20px;
+        padding: 10px 0 0 !important;
+        text-align: right;
+      }
+         /* slider css */
+      .slider {
+        padding-bottom: 70px;
+      }
+    .c_ind {
+        bottom: -60px;
+    }
+    .c_ind [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+    .s_text{
+        margin-top: 0;
+    }
+    .s_text h1{
+        font-size: 25px;
+    }
+    .s_text h2 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .s_text p{
+        color: #555555;
+        margin-bottom: 20px;
+      }
+    .s_icon ul li {
+        margin-right: 15px !important;
+    }
+    .s_icon ul li i {
+        font-size: 35px;
+    }
+    /* feature css */
+    .c_padding{
+        padding: 50px 0 70px;
+      }
+    .f_h1{
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+    .f_p{
+      line-height: 25px;
+      font-size: 17px;
+   }
+   .f_item{
+    margin-top: 30px;
+  }
+  .si_text {
+    text-align: center;
+  }
+  .si_icon i{
+    margin-top: 0;
+   font-size: 35px;
+   }
+  .si_h2{
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  .si_p{
+    letter-spacing: 0;
+    }
+
+  /* contact start */
+  .c_form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .c_input{
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .c_btn{
+    height: 45px;
+  }
+  .citem_li:not(:last-child) {
+    margin-right: 25px !important;
+  }
+  .citem_li i{
+    font-size: 38px;
+  }
+    /* footer start */
+    footer{
+      padding-bottom: 70px;
+    }
+    .f_p1 {
+      text-align: center;
+    }
+    .f_p2{
+      margin-top: 40px;
+      text-align: center;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body{
+    padding-top: 89px;
+  }
+  header{
+    padding: 10px 0;
+     }
+  .menu li a{
+        font-size: 20px;
+        padding: 10px 0 0 !important;
+        text-align: right;
+  }
+      /* slider css */
+  .slider {
+        padding-bottom: 60px;
+    }
+  .c_ind {
+        bottom: -55px;
+    }
+  .c_ind [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+  .s_text{
+        margin-top: 0;
+    }
+  .s_text h1{
+        font-size: 25px;
+    }
+  .s_text h2 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+  .s_text p{
+        color: #555555;
+        margin-bottom: 20px;
+      }
+  .s_icon ul li {
+        margin-right: 20px !important;
+    }
+  .s_icon ul li i {
+        font-size: 35px;
+    }
+    /* feature css */
+  .c_padding{
+    padding: 50px 0 70px;
+  }
+  .f_h1{
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .f_p{
+    line-height: 25px;
+    font-size: 17px;
+ }
+ .f_item{
+    margin-top: 30px;
+  }
+  .si_text {
+    text-align: center;
+}
+  .si_icon i{
+    margin-top: 0;
+  font-size: 35px;
+  }
+  .si_h2{
+    margin-bottom: 0;
+  font-size: 20px;
+  }
+  .si_p{
+    letter-spacing: 0;
+    }
+    /* contact start */
+  .c_form{
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .c_input{
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .c_btn{
+    height: 45px;
+  }
+  .citem_li:not(:last-child) {
+    margin-right: 25px !important;
+  }
+  .citem_li i{
+    font-size: 40px;
+  }
+  /* footer start */
+  footer{
+    padding-bottom: 70px;
+  }
+  .f_p1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .f_p2{
+    text-align: center;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header section start */
+  .menu li a{
+     padding: 10px 0 0 !important;
+     text-align: right;
+  }
+  /* slider start */
+  .slider{
+    padding-bottom: 100px;
+  }
+/* feature css */
+  .c_padding{
+    padding: 80px 0 100px;
+   }
+  .f_item{
+    margin-top: 50px;
+   }
+  /* contact start */
+  .c_form{
+    margin-top: 65px;
+    margin-bottom: 70px;
+   }
+   /* footer start */
+  footer{
+  padding-bottom: 100px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+
+}
