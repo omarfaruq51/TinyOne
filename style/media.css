@@ -5,6 +5,7 @@
       }
     header{
         padding: 10px 0;
+        width:96.39%;
     }
     .logo{
         width: 125px;
@@ -113,6 +114,7 @@
   }
   header{
     padding: 10px 0px;
+    width:98%;
   }
  .menu li a{
     font-size: 20px;
