@@ -11,6 +11,7 @@ body{
 header{
     background-color: #fcdb00;
     padding: 15px 0px;
+    width:100%;
 }
 .ntc:focus {
   box-shadow: none;
