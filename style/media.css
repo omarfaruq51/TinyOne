@@ -113,74 +113,74 @@
     padding-top: 89px;
   }
   header{
-    padding: 10px 0;
-      width:576px;
-     }
-  .menu li a{
-        font-size: 20px;
-        padding: 10px 0 0 !important;
-        text-align: right;
+    padding: 10px 0px;
+    width:576px;
+  }
+ .menu li a{
+    font-size: 20px;
+    padding: 10px 0 0 !important;
+    text-align: right;
   }
       /* slider css */
   .slider {
-        padding-bottom: 60px;
+    padding-bottom: 60px;
     }
   .c_ind {
-        bottom: -55px;
-    }
+    bottom: -55px;
+  }
   .c_ind [data-bs-target] {
-        width: 13px;
-        height: 13px;
-    }
+    width: 13px;
+    height: 13px;
+  }
   .s_text{
-        margin-top: 0;
-    }
+    margin-top: 0;
+  }
   .s_text h1{
-        font-size: 25px;
-    }
+   font-size: 25px;
+ }
   .s_text h2 {
-        margin: 10px 0;
-        font-size: 18px;
-    }
+   margin: 10px 0;
+   font-size: 18px;
+  }
   .s_text p{
-        color: #555555;
-        margin-bottom: 20px;
-      }
+   color: #555555;
+   margin-bottom: 20px;
+  }
   .s_icon ul li {
-        margin-right: 20px !important;
-    }
+   margin-right: 20px !important;
+  }
   .s_icon ul li i {
-        font-size: 35px;
-    }
+   font-size: 35px;
+  }
     /* feature css */
   .c_padding{
     padding: 50px 0 70px;
   }
   .f_h1{
-    margin-bottom: 10px;
-    font-size: 25px;
+  margin-bottom: 10px;
+   font-size: 25px;
   }
   .f_p{
-    line-height: 25px;
-    font-size: 17px;
+   line-height: 25px;
+   font-size: 17px;
  }
  .f_item{
-    margin-top: 30px;
+   margin-top: 30px;
   }
-  .si_text {
-    text-align: center;
+ .si_text {
+   text-align: center;
 }
-  .si_icon i{
-    margin-top: 0;
+ .si_icon i{
+  margin-top: 0;
   font-size: 35px;
   }
-  .si_h2{
-    margin-bottom: 0;
+ .si_h2{
+  margin-bottom: 0;
   font-size: 20px;
   }
   .si_p{
-    letter-spacing: 0;
-    }
+   letter-spacing: 0;
+  }
     /* contact start */
   .c_form{
     margin-top: 35px;
@@ -249,14 +249,18 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+   header {
+    width: 1024px;
+}
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-
+  header {
+    width: 1400px;
+}
 }
 
-/* Extra extra large devices (large desktops, 1200px and up) */
+/* Extra extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
 
 }
