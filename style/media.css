@@ -5,7 +5,6 @@
       }
     header{
         padding: 10px 0;
-        width:320px;
     }
     .logo{
         width: 125px;
@@ -114,7 +113,6 @@
   }
   header{
     padding: 10px 0px;
-    width:576px;
   }
  .menu li a{
     font-size: 20px;
@@ -217,9 +215,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* header section start */
-   header{
-    width: 768px;
-}
   .menu li a{
      padding: 10px 0 0 !important;
      text-align: right;
@@ -249,15 +244,9 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-   header {
-    width: 1024px;
-}
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  header {
-    width: 1400px;
-}
 }
 
 /* Extra extra large devices (large desktops, 1400px and up) */
